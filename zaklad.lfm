@@ -1,0 +1,391 @@
+object Evidence: TEvidence
+  Left = 279
+  Height = 464
+  Top = 167
+  Width = 965
+  Caption = 'Evidencia hackerov'
+  ClientHeight = 444
+  ClientWidth = 965
+  Color = clWhite
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30.2'
+  object Tabulka: TStringGrid
+    Left = 32
+    Height = 288
+    Top = 64
+    Width = 824
+    BorderStyle = bsNone
+    Color = clWhite
+    ColCount = 11
+    Columns = <    
+      item
+        Alignment = taCenter
+        ReadOnly = True
+        Title.Alignment = taCenter
+        Title.Caption = 'ID'
+        Visible = False
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Caption = 'Meno'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Caption = 'Priezvisko'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Caption = 'Nick'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          'Brazilia'
+          'Cesko'
+          'Francuzko'
+          'Madarsko'
+          'Nemecko'
+          'Polsko'
+          'Rusko'
+          'Slovensko'
+          'Turecko'
+          'USA'
+          'Ostatne'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Krajina'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          'Začiatočník'
+          'Pokročilý'
+          'Mierne-Pokročilý'
+          'Expert'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Úroveň'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          ''
+          'Anonymous'
+          'Blackhole'
+          'Dzihad'
+          'EliteZ'
+          'EVE'
+          'HaxorZ'
+          'Hysteria'
+          'ISS'
+          'LulzSec'
+          'Mysteria'
+          'Ostatne'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Skupina'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Caption = 'Škoda'
+        Width = 65
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Caption = 'Chytený'
+        Width = 65
+      end    
+      item
+        Alignment = taCenter
+        ReadOnly = True
+        Title.Alignment = taCenter
+        Title.Caption = 'Zmaž'
+        Width = 40
+      end>
+    DefaultColWidth = 32
+    FixedColor = cl3DLight
+    Options = [goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goSmoothScroll, goFixedRowNumbering, goHeaderHotTracking]
+    RowCount = 1
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    OnDblClick = TabulkaDblClick
+    OnDrawCell = TabulkaDrawCell
+    OnEditingDone = TabulkaEditingDone
+    OnPickListSelect = TabulkaPickListSelect
+  end
+  object TabulkaP: TStringGrid
+    Left = 32
+    Height = 45
+    Top = 376
+    Width = 728
+    Align = alCustom
+    BorderStyle = bsNone
+    ColCount = 8
+    Columns = <    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Meno'
+        Width = 100
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Priezvisko'
+        Width = 100
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Nick'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          'Brazilia'
+          'Cesko'
+          'Francuzko'
+          'Madarsko'
+          'Nemecko'
+          'Polsko'
+          'Rusko'
+          'Slovensko'
+          'Turecko'
+          'USA'
+          'Ostatne'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Krajina'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          'Začiatočník'
+          'Pokročilý'
+          'Mierne-Pokročilý'
+          'Expert'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Úroveň'
+        Width = 100
+      end    
+      item
+        Alignment = taCenter
+        PickList.Strings = (
+          ''
+          'Anonymous'
+          'Blackhole'
+          'Dzihad'
+          'EliteZ'
+          'EVE'
+          'HaxorZ'
+          'Hysteria'
+          'ISS'
+          'LulzSec'
+          'Mysteria'
+          'Ostatne'
+        )
+        Title.Alignment = taCenter
+        Title.Caption = 'Skupina'
+        Width = 100
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Škoda'
+      end    
+      item
+        Title.Alignment = taCenter
+        Title.Caption = 'Chytený'
+      end>
+    FixedCols = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goAlwaysShowEditor, goSmoothScroll]
+    RowCount = 2
+    ScrollBars = ssNone
+    TabOrder = 1
+    OnPickListSelect = TabulkaPPickListSelect
+  end
+  object Add: TButton
+    Left = 768
+    Height = 45
+    Top = 376
+    Width = 56
+    Caption = 'Pridať'
+    Enabled = False
+    OnClick = AddClick
+    TabOrder = 2
+  end
+  object Zoradenie: TListBox
+    Left = 867
+    Height = 272
+    Top = 80
+    Width = 88
+    Color = clWhite
+    Enabled = False
+    Items.Strings = (
+      'ID ASC'
+      'ID DESC'
+      'Meno A-Z'
+      'Meno Z-A'
+      'Priez. A-Z'
+      'Priez. Z-A'
+      'Nick A-Z'
+      'Nick Z-A'
+      'Škoda ASC'
+      'Škoda DESC'
+      'Chyt. ASC'
+      'Chyt. DESC'
+      'Krajina ASC'
+      'Krajina DESC'
+      'Skupina ASC'
+      'Skupina DESC'
+    )
+    ItemHeight = 15
+    OnSelectionChange = ZoradenieSelectionChange
+    ParentFont = False
+    TabOrder = 3
+  end
+  object SearchText: TLabeledEdit
+    Left = 32
+    Height = 23
+    Top = 32
+    Width = 136
+    EditLabel.AnchorSideLeft.Control = SearchText
+    EditLabel.AnchorSideBottom.Control = SearchText
+    EditLabel.Left = 32
+    EditLabel.Height = 16
+    EditLabel.Top = 13
+    EditLabel.Width = 40
+    EditLabel.Caption = 'Hladať:'
+    EditLabel.ParentColor = False
+    TabOrder = 4
+  end
+  object Search: TButton
+    Left = 296
+    Height = 21
+    Top = 32
+    Width = 75
+    Caption = 'Hladať'
+    Enabled = False
+    OnClick = SearchClick
+    TabOrder = 5
+  end
+  object SearchCol: TComboBox
+    Left = 184
+    Height = 23
+    Top = 32
+    Width = 96
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Meno'
+      'Priezvisko'
+      'Nick'
+      'Krajina'
+      'Skupina'
+    )
+    Style = csDropDownList
+    TabOrder = 6
+    Text = 'Meno'
+  end
+  object EraseSearch: TCheckBox
+    Left = 384
+    Height = 19
+    Top = 32
+    Width = 133
+    Caption = 'Zmazať vyhľadávanie'
+    OnChange = EraseSearchChange
+    TabOrder = 7
+  end
+  object StaticText1: TStaticText
+    Left = 184
+    Height = 16
+    Top = 12
+    Width = 41
+    Caption = 'Podľa:'
+    Color = clNone
+    ParentColor = False
+    TabOrder = 8
+  end
+  object StaticText2: TStaticText
+    Left = 872
+    Height = 16
+    Top = 64
+    Width = 75
+    Alignment = taCenter
+    Caption = 'Zoradiť:'
+    TabOrder = 9
+  end
+  object StaticText3: TStaticText
+    Left = 32
+    Height = 16
+    Top = 360
+    Width = 112
+    Caption = 'Pridať novú osobu:'
+    Color = clNone
+    ParentColor = False
+    TabOrder = 10
+  end
+  object MainMenu1: TMainMenu
+    left = 896
+    top = 392
+    object MenuItem1: TMenuItem
+      Caption = 'Databáza'
+      object Open: TMenuItem
+        Caption = 'Otvoriť / Nový...'
+        OnClick = OpenClick
+      end
+      object Save: TMenuItem
+        Caption = 'Uložiť...'
+        Enabled = False
+        OnClick = SaveClick
+      end
+      object SaveAs: TMenuItem
+        Caption = 'Uložiť ako...'
+        Enabled = False
+        OnClick = SaveAsClick
+      end
+      object Zatvor: TMenuItem
+        Caption = 'Zatvoriť'
+        Enabled = False
+        OnClick = ZatvorClick
+      end
+    end
+    object Preference: TMenuItem
+      Caption = 'Nastavenie'
+      OnClick = PreferenceClick
+    end
+    object statmenu: TMenuItem
+      Caption = 'Štatistiky'
+      object topky: TMenuItem
+        Caption = 'TOP Hackeri'
+        Enabled = False
+        OnClick = topkyClick
+      end
+      object map: TMenuItem
+        Caption = 'TOP Skupiny'
+        Enabled = False
+        OnClick = mapClick
+      end
+      object country: TMenuItem
+        Caption = 'TOP Krajiny'
+        Enabled = False
+        OnClick = countryClick
+      end
+    end
+    object About: TMenuItem
+      Caption = 'O programe'
+      OnClick = AboutClick
+    end
+  end
+end

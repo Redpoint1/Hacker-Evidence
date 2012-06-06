@@ -1,0 +1,25 @@
+object Stat: TStat
+  Left = 283
+  Height = 426
+  Top = 172
+  Width = 980
+  Caption = 'Štatistiky'
+  ClientHeight = 426
+  ClientWidth = 980
+  Color = clWhite
+  OnCreate = FormCreate
+  LCLVersion = '0.9.30.4'
+  object Img: TImage
+    Left = 16
+    Height = 400
+    Top = 16
+    Width = 800
+    Align = alCustom
+  end
+  object Img2: TImage
+    Left = 832
+    Height = 400
+    Top = 16
+    Width = 128
+  end
+end

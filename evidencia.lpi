@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="32">
+      <Unit0>
+        <Filename Value="evidencia.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="evidencia"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="119"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="zaklad.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Evidence"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="zaklad"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="185"/>
+        <CursorPos X="29" Y="563"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="zaznamy.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="zaznamy"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="160"/>
+        <CursorPos X="36" Y="178"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="databaza.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="databaza"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="23"/>
+        <CursorPos X="41" Y="36"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="8203"/>
+        <CursorPos X="1" Y="8216"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\messagedialogs.inc"/>
+        <TopLine Value="213"/>
+        <CursorPos X="9" Y="229"/>
+        <UsageCount Value="6"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <TopLine Value="246"/>
+        <CursorPos X="10" Y="119"/>
+        <UsageCount Value="2"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\fpc\2.4.2\source\rtl\inc\objpash.inc"/>
+        <TopLine Value="395"/>
+        <CursorPos X="8" Y="180"/>
+        <UsageCount Value="3"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <TopLine Value="659"/>
+        <CursorPos X="3" Y="624"/>
+        <UsageCount Value="6"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <TopLine Value="2276"/>
+        <CursorPos X="1" Y="2289"/>
+        <UsageCount Value="8"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\dynamicarray.pas"/>
+        <UnitName Value="DynamicArray"/>
+        <TopLine Value="57"/>
+        <CursorPos X="1" Y="68"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\include\fpimagebitmap.inc"/>
+        <TopLine Value="135"/>
+        <CursorPos X="1" Y="146"/>
+        <UsageCount Value="4"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <TopLine Value="5229"/>
+        <CursorPos X="1" Y="5242"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <TopLine Value="110"/>
+        <CursorPos X="1" Y="110"/>
+        <UsageCount Value="8"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <TopLine Value="2431"/>
+        <CursorPos X="1" Y="2444"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <TopLine Value="465"/>
+        <CursorPos X="15" Y="514"/>
+        <UsageCount Value="6"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\fpc\2.6.0\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="214"/>
+        <CursorPos X="10" Y="113"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="C:\lazarus\fpc\2.6.0\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="805"/>
+        <CursorPos X="3" Y="770"/>
+        <UsageCount Value="8"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\lazarus\fpc\2.6.0\source\rtl\inc\objpash.inc"/>
+        <TopLine Value="233"/>
+        <CursorPos X="21" Y="201"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="C:\lazarus\lcl\include\customlistbox.inc"/>
+        <TopLine Value="561"/>
+        <CursorPos X="1" Y="574"/>
+        <UsageCount Value="7"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="2825"/>
+        <CursorPos X="1" Y="2838"/>
+        <UsageCount Value="7"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <TopLine Value="2075"/>
+        <CursorPos X="1" Y="2088"/>
+        <UsageCount Value="7"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarus\lcl\include\customcombobox.inc"/>
+        <TopLine Value="914"/>
+        <CursorPos X="1" Y="927"/>
+        <UsageCount Value="7"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <TopLine Value="14"/>
+        <CursorPos X="1" Y="22"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="C:\lazarus\lcl\include\buttons.inc"/>
+        <TopLine Value="320"/>
+        <CursorPos X="1" Y="342"/>
+        <UsageCount Value="8"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsforms.pp"/>
+        <UnitName Value="Win32WSForms"/>
+        <TopLine Value="283"/>
+        <CursorPos X="1" Y="296"/>
+        <UsageCount Value="8"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="pref.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Nastavenie"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="pref"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="27" Y="74"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\lazarus\lcl\include\customcheckgroup.inc"/>
+        <TopLine Value="171"/>
+        <CursorPos X="1" Y="184"/>
+        <UsageCount Value="8"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="oprog"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="about"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="statistik.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Stat"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="statistik"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="133"/>
+        <CursorPos X="16" Y="211"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1391"/>
+        <CursorPos X="31" Y="1413"/>
+        <UsageCount Value="9"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="44"/>
+        <CursorPos X="13" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="132" Column="6" TopLine="123"/>
+      </Position1>
+      <Position2>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="159" Column="42" TopLine="139"/>
+      </Position2>
+      <Position3>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="22" Column="79" TopLine="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="158" Column="76" TopLine="145"/>
+      </Position4>
+      <Position5>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="180" Column="29" TopLine="163"/>
+      </Position5>
+      <Position6>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="23" Column="38" TopLine="16"/>
+      </Position6>
+      <Position7>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="13" Column="24" TopLine="4"/>
+      </Position7>
+      <Position8>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="180" Column="34" TopLine="165"/>
+      </Position8>
+      <Position9>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="60" Column="19" TopLine="47"/>
+      </Position9>
+      <Position10>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="68" Column="26" TopLine="53"/>
+      </Position10>
+      <Position11>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="96" Column="36" TopLine="79"/>
+      </Position11>
+      <Position12>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="146" Column="21" TopLine="125"/>
+      </Position12>
+      <Position13>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="193" Column="22" TopLine="175"/>
+      </Position13>
+      <Position14>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="34" Column="10" TopLine="20"/>
+      </Position14>
+      <Position15>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="113" Column="14" TopLine="100"/>
+      </Position15>
+      <Position16>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="125" Column="28" TopLine="112"/>
+      </Position16>
+      <Position17>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="127" Column="48" TopLine="114"/>
+      </Position17>
+      <Position18>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="198" Column="19" TopLine="175"/>
+      </Position18>
+      <Position19>
+        <Filename Value="zaklad.pas"/>
+        <Caret Line="547" Column="9" TopLine="540"/>
+      </Position19>
+      <Position20>
+        <Filename Value="zaklad.pas"/>
+        <Caret Line="554" Column="9" TopLine="547"/>
+      </Position20>
+      <Position21>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="19" Column="9" TopLine="11"/>
+      </Position21>
+      <Position22>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="139" Column="3" TopLine="136"/>
+      </Position22>
+      <Position23>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="138" Column="1" TopLine="126"/>
+      </Position23>
+      <Position24>
+        <Filename Value="zaklad.pas"/>
+        <Caret Line="233" Column="14" TopLine="213"/>
+      </Position24>
+      <Position25>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="162" Column="21" TopLine="143"/>
+      </Position25>
+      <Position26>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="163" Column="32" TopLine="150"/>
+      </Position26>
+      <Position27>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="61" Column="54" TopLine="56"/>
+      </Position27>
+      <Position28>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="186" Column="28" TopLine="174"/>
+      </Position28>
+      <Position29>
+        <Filename Value="zaznamy.pas"/>
+        <Caret Line="178" Column="36" TopLine="160"/>
+      </Position29>
+      <Position30>
+        <Filename Value="statistik.pas"/>
+        <Caret Line="186" Column="49" TopLine="7"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="evidencia"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
